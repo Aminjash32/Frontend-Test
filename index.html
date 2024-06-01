@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="icon" href="Assets/SVG/Logo.svg">
+    <title>Frontend Test - Opec</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="logo">
+        <a href=""><img src="/Assets/PNG/Logo.png" alt=""></a>
+        </div>  
+        
+        <div class="navbar" id="navLinks">            
+            <img src="Assets/SVG/Close icon.svg"  class="fa fa-times" id="close" onclick="showMenu()">
+            <a href="#home">Home</a>
+            <a href="#service">Services</a>
+            <a href="#project">Our projects</a>
+            <a href="#about">About us</a>
+            <a href="#contact" class="c-btn">Contact us</a>
+        </div>
+        <img src="Assets/SVG/Menu icon.svg"  class="fa icon" id="open" onclick="showMenu()">
+        
+    </header>
+
+
+<!-- Home -->
+<section class="home" id="home">
+    <div class="content">
+        <h1>
+            Build Your<br>
+            Awesome<br>
+            Website
+        </h1>
+        
+        <p>Opec Studio is a digital studio that offers several services<br>
+            such as UI\UX Design to developers, we will provide the best<br>
+            service for those of you who use our services.
+        </p>
+        
+        <div class="btn">
+            <a href="" onclick="fun()">Our Services</a>
+            <img src="Assets/SVG/arrow-right-up.svg" alt="">
+        </div>
+        
+        <div class="img-container">
+            <img id="girl" src="/Assets/PNG/Girl image.png" alt="">
+        </div>
+        
+    </div>
+</section>
+
+<!--Services-->
+<section class="service" id="service">
+    <h1 class="h1-title">The Service We for Provide<br>
+    For You
+    </h1>
+
+    <div class="service-container">
+        <div id="ui">
+            <img src="/Assets/PNG/Icon 1.png" alt="">
+            <h2>UI\UX Design</h2>
+            <p>lorem ipsum dolor sit amet</p>
+        </div>
+        <div id="graphic">
+            <img src="/Assets/PNG/Icon 2.png" alt="">
+            <h2>Graphic Design</h2>
+            <p>lorem ipsum dolor sit amet</p>
+        </div>
+        <div id="motion">
+            <img src="/Assets/PNG/Icon 3.png" alt="">
+            <h2>Motion Design</h2>
+            <p>lorem ipsum dolor sit amet</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- Projects -->
+<section class="project">
+    <h1 class="project-h1">Our Awesome Portfolio</h1>
+    <nav class="project-nav">
+        <a href="#">All</a>
+        <a href="#">Websites</a>
+        <a href="#">Apps</a>
+        <a href="#">Newsletter</a>
+    </nav>
+
+    <div class="project-container">
+        
+        <div class="img-1">
+            <img src="/Assets/PNG/Portfolio image 1.png" alt="Project 1">
+            <h3>ConceptZilla</h3>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing<br>elit. Eveniet, quibusdam labore iusto facere autem <br>quas esse veniam</p>
+            <button>View more</button>
+        </div>
+
+        <div class="card">
+            <div class="img-2">
+                <h3>Videopad</h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <img src="/Assets/PNG/Portfolio image 2.png" alt="Project 2">
+        </div>
+
+        <div class="card">
+            <div class="img-3">
+                <h3>Panto</h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <img src="/Assets/PNG/Portfolio image 3.png" alt="Project 3">
+        </div>
+
+        <div class="card">
+            <div class="img-4">
+                <h3>DigiTeck</h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <img src="/Assets/PNG/Portfolio image 4.png" alt="Project 4">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Testimonial -->
+
+<section class="testimonial" id="about">
+
+    <header class="test-header">
+        <h1 class="test-h1">What Our Clients Says</h1>
+        <button><</button>
+        <button>></button>
+    </header>
+
+    <div class="test-container">
+
+        <div class="test-card">
+            <img src="Assets/PNG/Testimonial image.png" alt="">
+
+            <div class="test-content">
+            <div>★★★★★</div>
+            <br>
+            <h3>Great Design</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nulla?</p>
+            <img src="Assets/PNG/Profile 1.png" alt="">
+            <h3>Foster Richmond</h3>
+            <p>Product manager - DigiTeck</p>
+            </div>
+        </div>
+
+        <div class="test-card-1">
+            <div class="test-content">
+            <h3>Great Design</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nulla?</p>
+            <br>
+            <div>★★★★★</div>
+            <br>
+            <div class="info">
+            <img src="Assets/PNG/Profile 2.png" alt="">
+            <h3>Eliza Ryan</h3>
+            <p>Product manager - Panto</p>
+            </div>
+            
+            </div>
+        </div>
+
+        <div class="test-card-1">
+            <div class="test-content">
+            <h3>Great Design</h3>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nulla?</p>
+            <br>
+            <div>★★★★★</div>
+            <br>
+            <div class="info">
+            <img src="Assets/PNG/Profile 3.png" alt="">
+            <h3>Gary Stanton</h3>
+            <p>Product manager - Panto</p>
+            </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Contact Us-->
+<section class="contact" id="contact">
+<div class="contact-container">
+    <div class="contact-left">
+        <div class="logo">
+            <img src="/Assets/SVG/Logo.svg" alt="OPEC Logo">
+        </div>
+        <div class="contact-details">
+            <div class="address">
+                <h3>Our Address</h3>
+                <p>246 4th Avenue<br>New York, NY 10001<br>United States</p>
+            </div>
+            <br>
+            <div class="contacts">
+                <h3>Our Contacts</h3>
+                <p>Email: <a href="mailto:info@opec.com">info@opec.com</a><br>Phone: 548-548-8589</p>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="/Assets/SVG/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="/Assets/SVG/Twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="/Assets/SVG/Instagram.svg" alt="Instagram"></a>
+            <span>- follow us</span>
+        </div>
+        <div class="legal-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+    </div>
+    <div class="contact-right">
+        <h2>Contact Us</h2>
+        <form action="" id="cform" method="post">
+            <input type="text" placeholder="Name" class="f1" id="t1">
+            <input type="email" placeholder="Email" class="f2" id="t2">
+            <input type="text"  placeholder="Contact number" class="f3" id="t3">
+            <textarea placeholder="Message" class="f4" id="t4"></textarea>
+            <button class="sbt" type="submit" onclick="return validate()">Send message</button>
+        </form>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2022 Opec, All Rights Reserved</p>
+</footer>
+
+</section>
+
+</body>
+</html>
