@@ -1,4 +1,14 @@
 
+let bar = document.getElementById("header");
+    
+    function toggleMenu(){
+           bar.style.left = "0px";
+       } 
+
+    function bye() {
+        bar.style.left = "-300px";
+    }
+
 function validate() {
   var fname = document.getElementById("t1").value;
   var email = document.getElementById("t2").value;
